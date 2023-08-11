@@ -1,0 +1,104 @@
+<link rel="stylesheet" href="/ASM/css/dang_nhap.css" />
+<!-- 
+<div class="row">
+    <img src="https://bloganchoi.com/wp-content/uploads/2019/06/son-duong-dior.jpg" alt="">
+</div> -->
+
+<div class="row">
+  <div class="col-12">
+    <div class="row justify-content-center">
+      <h1 class="title_welcome title_welcome_top">- WELCOME TO XXIV STORE -</h1>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col">
+    <div class="row justify-content-center">
+      <p class="title_welcome">
+        XXIV PERFUME BAR - Mang mùi hương đến với mọi người
+      </p>
+      <hr class="hr_black" />
+    </div>
+  </div>
+</div>
+
+<div class="row mt-4">
+  <div class="col-md-6 pe-0">
+    <div class="row">
+      <img class="col" src="/ASM/img/dang_nhap2.jpg" alt="" />
+    </div>
+  </div>
+  <!-- rgba(248, 234, 231, 0.5) -->
+  <div class="col-md-6 form_dangnhap">
+    <div class="row justify-content-center">
+      <form class="col-md-10 p-5" name="frm" ng-submit="onSubmit($event)">
+        <h2 class="d-flex justify-content-center">Sign In</h2>
+        <h6 class="d-flex justify-content-center text_forfreeacc">
+          For free Account
+        </h6>
+        <div class="form-group my-3">
+          <label class="form-label">
+            Tài khoản
+            <i class="sao"> * </i>
+          </label>
+          <input
+            type="text"
+            required
+            minlength="3"
+            name="txtUsername"
+            ng-model="user.username"
+            class="form-control"
+          />
+          <span
+            class="text-danger"
+            ng-show="frm.txtUsername.$invalid && frm.txtUsername.$dirty"
+            >Tài khoản ít nhất 3 kí tự</span
+          >
+        </div>
+        <div class="form-group my-3">
+          <label class="form-label">
+            Mật khẩu
+            <i class="sao"> * </i>
+          </label>
+          <input
+            type="text"
+            required
+            name="txtPassword"
+            minlength="3"
+            maxlength="5"
+            ng-model="user.password"
+            class="form-control"
+          />
+          <span
+            class="text-danger"
+            ng-show="frm.txtPassword.$invalid && frm.txtPassword.$dirty"
+            >Mật khẩu từ 3-5 kí tự</span
+          >
+        </div>
+        <div class="sao my-3"><i> Mục có dấu (*) là bắt buộc</i></div>
+        <div class="d-flex justify-content-center mt-4">
+          <a class="forget_signup" href="#">Quên mật khẩu?</a>
+        </div>
+        <div class="d-flex justify-content-center">
+          <button type="submit" class="btn btn-default btn_dangnhap">
+            ĐĂNG NHẬP
+          </button>
+        </div>
+        <div class="d-flex justify-content-center mt-3">
+          <p class="me-2 text-secondary"><i>Bạn chưa có tài khoản?</i></p>
+          <a class="forget_signup" href="#/dang_ky">Đăng ký ngay</a>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<div class="row mx-1">
+  <div class="col">
+    <div class="row justify-content-center">
+      <h1 class="title_welcome title_welcome_top">- XXIV STORE THANK YOU -</h1>
+      <hr class="hr_black" />
+    </div>
+  </div>
+</div>

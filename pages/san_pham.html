@@ -1,0 +1,219 @@
+<link rel="stylesheet" href="/ASM/css/san_pham.css" />
+
+<div class="row">
+  <div class="col-md-12 py-3">
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/ASM/img/dau_gia.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="/ASM/img/best_man.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="/ASM/img/best_woman.jpg" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-12">
+    <div class="row justify-content-center">
+      <h1 class="title_welcome title_welcome_top">- WELCOME TO XXIV STORE -</h1>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col">
+    <div class="row justify-content-center">
+      <p class="title_welcome">
+        XXIV PERFUME BAR - Mang mùi hương đến với mọi người
+      </p>
+    </div>
+  </div>
+</div>
+
+<section class="row">
+  <div class="col-md-10 offset-1">
+    <div class="row">
+      <aside class="col-md-3">
+        <div class="row">
+          <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                <button
+                  class="accordion-button btn_aside"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseOne"
+                  aria-expanded="true"
+                  aria-controls="panelsStayOpen-collapseOne"
+                >
+                  <i class="fa-solid fa-list-ul fa-lg me-2"></i>
+                  THƯƠNG HIỆU
+                </button>
+              </h2>
+              <div
+                id="panelsStayOpen-collapseOne"
+                class="accordion-collapse collapse show"
+                aria-labelledby="panelsStayOpen-headingOne"
+              >
+                <div class="accordion-body">
+                  <h5 class="px-1">
+                    <a class="li_aside ms-2" href="" ng-click="showAll()"
+                      >Tất cả</a
+                    >
+                  </h5>
+                  <hr />
+                  <ul class="ul_aside" ng-repeat="th in arrThuongHieu">
+                    <li>
+                      <a class="li_aside" href="" ng-click="shownuochoa($index)"
+                        >{{th.thuongHieu}}</a
+                      >
+                    </li>
+                    <hr />
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <img src="/ASM/img/slide1.jpg" alt="" />
+        </div>
+        <div class="row">
+          <img src="/ASM/img/slide2.jpg" alt="" />
+        </div>
+        <div class="row">
+          <img src="/ASM/img/slide3.jpg" alt="" />
+        </div>
+        <div class="row">
+          <img src="/ASM/img/slide4.jpg" alt="" />
+        </div>
+      </aside>
+
+      <article class="col-md-9 boder_sp">
+        <div class="row">
+          <div class="col">
+            <div class="row mx-1 py-4 ps-2 sp_blackrouge">
+              <div
+                class="col-6 col-md-4 mt-1 mb-4"
+                ng-repeat="nuochoa in products | limitTo: 9: begin"
+              >
+                <div class="row">
+                  <a href="#/chi_tiet_san_pham/{{nuochoa.id}}"
+                    ><img
+                      src="/ASM/img/{{nuochoa.hinhAnh}}"
+                      class="card-img-top"
+                      alt="..."
+                  /></a>
+                  <div class="card-body">
+                    <p class="card-text">{{nuochoa.ten}}</p>
+                    <h5 class="card-title">{{nuochoa.gia}} VND</h5>
+                    <a
+                      href="#/mua_hang"
+                      ng-click="muaHang(nuochoa.id)"
+                      class="col-4 btn btn-default btn_mua_sp"
+                      >Mua</a
+                    >
+                    <a
+                      ng-click="gioHang(nuochoa.id)"
+                      class="col-4 btn btn-default btn_mua_sp"
+                    >
+                      <i class="fa-solid fa-cart-plus fa-xl"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mb-3">
+          <div class="col pagination d-flex justify-content-center">
+            <div class="card">
+              <button class="btn btn_pagination" ng-click="first()">
+                <i class="fa-solid fa-backward-fast fa-lg"></i>
+              </button>
+            </div>
+            <div class="card">
+              <button class="btn btn_pagination" ng-click="prev()">
+                <i class="fa-solid fa-backward fa-lg"></i>
+              </button>
+            </div>
+            <div class="card">
+              <button class="btn btn_pagination" ng-click="next()">
+                <i class="fa-solid fa-forward fa-lg"></i>
+              </button>
+            </div>
+            <div class="card">
+              <button class="btn btn_pagination" ng-click="last()">
+                <i class="fa-solid fa-forward-fast fa-lg"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<footer class="row py-3">
+  <img src="/ASM/img/OIP.jpg" alt="" />
+</footer>
+
+<div class="row mx-1">
+  <div class="col">
+    <div class="row justify-content-center">
+      <h1 class="title_welcome title_welcome_top">- XXIV STORE THANK YOU -</h1>
+      <hr class="hr_black" />
+    </div>
+  </div>
+</div>

@@ -1,0 +1,278 @@
+{
+  "nuochoa": [
+    {
+      "id": 1,
+      "hinhAnh": "DiorSauvageEDP.png",
+      "ten": "Dior Sauvage EDP(100ml) (Nam)",
+      "thuongHieu": "Dior",
+      "soLuong": 30,
+      "gia": 3400000,
+      "thongTin": "Đây là dòng nước hoa Christian Dior này có độ lưu hương lâu 7 giờ đến 12 giờ và độ tỏa hương thuộc dạng gần, toả hương trong vòng một cánh tay. ",
+      "trangThai": 0
+    },
+    {
+      "id": 2,
+      "hinhAnh": "YSLnam.jpg",
+      "ten": "Y EDP(100ml) (Nam)",
+      "thuongHieu": "YSL",
+      "soLuong": 12,
+      "gia": 3500000,
+      "thongTin": "Y EDP là chai nước hoa đa dụng, dễ sử dụng nhất giành cho nam đến từ nhà YSL, tuy nhiên không vì đa dụng mà chai nước hoa này lại bị trở nên nhạt nhòa hay thiếu điểm nhấn đâu nha, mà hiệu năng của nó lại cực kì tốt nữa.",
+      "trangThai": 0
+    },
+    {
+      "id": 3,
+      "hinhAnh": "YSL-La Nuit De L’homme EDT.jpg",
+      "ten": "La Nuit De Lhomme EDT(100ml) (Nam)",
+      "thuongHieu": "YSL",
+      "soLuong": 20,
+      "gia": 3000000,
+      "thongTin": "La Nuit de Lhomme gây tiếng vang lớn và trở thành một trong những mùi hương luôn đứng top đầu ở các bảng xếp hạng những chai nước hoa dùng cho hẹn hò, bạn có thể dễ dàng gặp những lời khen có cánh dành cho sáng tạo này của Yves Saint Laurent ở bất kì forum về nước hoa nào.",
+      "trangThai": 0
+    },
+    {
+      "id": 4,
+      "hinhAnh": "YSL-Libre.png",
+      "ten": "Libre EDT(90ml) (Nữ)",
+      "thuongHieu": "YSL",
+      "soLuong": 22,
+      "gia": 3400000,
+      "thongTin": "Được phát hành vào năm 2019, ra mắt cùng với hình ảnh của nữ ca sĩ Dua Lipa, YSL Libre nhanh chóng trở thành một hiện tượng nước hoa của năm và chen chân đứng top 2 trong số những mùi hương bán chạy nhất dịp lễ Giáng sinh ở Anh.",
+      "trangThai": 0
+    },
+    {
+      "id": 5,
+      "hinhAnh": "YSL-Black Opium edp.png",
+      "ten": "Black Opium edp(90ml) (Nữ)",
+      "thuongHieu": "YSL",
+      "soLuong": 16,
+      "gia": 3450000,
+      "thongTin": "Tháng 9 năm 2014, Yves Saint Laurent đã cho ra mắt dòng nước hoa mang tên Black Opium, được hãng giới thiệu kèm thông điệp rằng đây là một chai nước hoa theo hướng cổ điển, khơi gợi và khắc họa sự bí ẩn, những góc tối chưa hề được nhắc tới về thương hiệu Yves Saint Laurent.",
+      "trangThai": 0
+    },
+    {
+      "id": 6,
+      "hinhAnh": "D&G-light-blue-forever.png",
+      "ten": "Light Blue Forever(Nam)",
+      "thuongHieu": "D&G",
+      "soLuong": 16,
+      "gia": 2800000,
+      "thongTin": "Light Blue Forever Pour Homme mở đầu toàn là Citrus từ cam bergamote và bưởi làm rất thật, cảm giác mọng nước giống như bạn đang bổ 1 quả bưởi, những tia nước li ti bắn ra cảm giác ngọt ngọt xen lẫn 1 chút hơi chát chát đăng đắng,nhưng fresh và rất dễ chịu, nếu ngửi kĩ, sẽ có chút gì đó hơi cay nhẹ, man mát.",
+      "trangThai": 0
+    },
+    {
+      "id": 7,
+      "hinhAnh": "J’adore Eau de Parfum.png",
+      "ten": "J’adore Eau de Parfum(100ml) (Nữ)",
+      "thuongHieu": "Dior",
+      "soLuong": 45,
+      "gia": 3500000,
+      "thongTin": "Dior J’adore Eau De Parfum Women là loại nước hoa mang hương thơm vô cùng đặc biệt, tạo dấu ấn ban đầu dễ dàng với bất kỳ đối tượng nào. Dior J’adore Eau De Parfum Women được chế tác vô cùng tinh xảo đến từ chi tiết cuối cùng ví như hương vị của bông hoa có trong tự nhiên.",
+      "trangThai": 0
+    },
+    {
+      "id": 8,
+      "hinhAnh": "Versace-Eros.png",
+      "ten": "Eros EDT(100ml) (Nam)",
+      "thuongHieu": "Versace",
+      "soLuong": 22,
+      "gia": 2500000,
+      "thongTin": "Bề mặt vỏ son mờ lì và mịn như nhung. Thân son được in logo màu đen tạo nên sự sang trọng, quý phái khi cầm trên tay. Vỏ son có tông màu nâu hồng tương tự như dòng Blackline",
+      "trangThai": 0
+    },
+    {
+      "id": 9,
+      "hinhAnh": "Versace-Pour-Homme.png",
+      "ten": "Versace Pour Homme EDT(100ml)",
+      "thuongHieu": "Versace",
+      "soLuong": 6,
+      "gia": 2400000,
+      "thongTin": "Versace Pour Homme ra đời vào năm 2008 bởi perfumer lừng danh Alberto Morillas, đến nay là đã 13 năm, nhận được số điểm trung bình 4,3 trên 5 với gần 11000 lượt vote trên Fragrantica.",
+      "trangThai": 0
+    },
+    {
+      "id": 10,
+      "hinhAnh": "Versace-Dylan Blue EDT.png",
+      "ten": "Dylan Blue EDT(100ml) (Nam)",
+      "thuongHieu": "Versace",
+      "soLuong": 13,
+      "gia": 2500000,
+      "thongTin": "Versace Pour Homme Dylan Blue được ra mắt vào cuối tháng 7 năm 2016, là một chai nước hoa mới nhất của dòng Versace Pour Homme. Với nhiều người, hẳn sẽ để ý đến thiết kế chai rất sang trọng và tinh tế, nhưng với tôi, tôi chú đến màu xanh đậm của Versace Pour Homme Dylan Blue nhiều hơn.",
+      "trangThai": 0
+    },
+    {
+      "id": 11,
+      "hinhAnh": "Versace-bright.png",
+      "ten": "Bright Crystal EDT(90ml) (Nữ)",
+      "thuongHieu": "Versace",
+      "soLuong": 15,
+      "gia": 2500000,
+      "thongTin": "Nắp chai thiết kế như một viên pha lê lấp lánh được gọt dũa tỉ mỉ, che đậy một lớp nước màu hồng nhạt tinh khiết.Versace Bright Crystal không chỉ đẹp về thiết kế, mà nó còn đẹp về mùi hương nữa.",
+      "trangThai": 0
+    },
+    {
+      "id": 12,
+      "hinhAnh": "tomford-rose-brick-orchard.png",
+      "ten": "Rose Prick(50ml) (Nữ)",
+      "thuongHieu": "TomFord",
+      "soLuong": 14,
+      "gia": 6800000,
+      "thongTin": "Đón chào 2020. Tom Ford tung chai nước hoa Tom Ford Rose Prick EDP làm nức lòng giới điệu mộ. Không chỉ đổ gục trước thiết kế hồng phấn ngọt ngào, sang trọng. Mà còn ngất ngây với hương thơm kiêu kỳ, nữ tính và hơn hết là sự sang trọng.",
+      "trangThai": 0
+    },
+    {
+      "id": 13,
+      "hinhAnh": "tom-ford-oud-wood-intense.png",
+      "ten": "Oud Wood Intense(50ml) (Nam)",
+      "thuongHieu": "TomFord",
+      "soLuong": 16,
+      "gia": 5700000,
+      "thongTin": "Được xếp vào nhóm hương thơm thu hút mùa Đông dành cho cả nam và nữ giới, Oud Wood Intense được giới thiệu như một mùi hương ngang tàng và hấp dẫn đến không thể kiềm chế bộc lộ những dấu ấn mạnh mẽ và quý phái của trầm hương. Sắc thái dẫn đầu này được những nốt hương của cây bách vang lên hùng tráng và càng trở nên thu hút lạ kỳ.",
+      "trangThai": 0
+    },
+    {
+      "id": 14,
+      "hinhAnh": "tom-ford-Neroli Portofino EDP.png",
+      "ten": "Neroli Portofino EDP(50ml) (Nữ)",
+      "thuongHieu": "TomFord",
+      "soLuong": 16,
+      "gia": 5500000,
+      "thongTin": "Thương hiệu Tom Ford đã cho ra mắt một mùi hương thuộc dòng cam quýt aromatic mới dành cho cả nam lẫn nữ với tên gọi Neroli Portofino vào năm 2011. Neroli Portofino được tạo ra bởi nhà sáng chế nước hoa  dành tiếng Rodrigo Flores-Roux.",
+      "trangThai": 0
+    },
+    {
+      "id": 15,
+      "hinhAnh": "tom-ford-Lost Cherry.png",
+      "ten": "Lost Cherry(50ml) (Nữ)",
+      "thuongHieu": "TomFord",
+      "soLuong": 45,
+      "gia": 7500000,
+      "thongTin": "Xuất hiện ngay từ những giây đầu tiên của Tomford Lost Cherry là hương thơm Cherry chín mọng, nó đỏ ngọt và đậm y như màu sắc Tom Ford khoác lên đứa con tâm huyết chất lượng này. ",
+      "trangThai": 0
+    },
+    {
+      "id": 16,
+      "hinhAnh": "tom-ford-ombre-leather-orchard.png",
+      "ten": "Ombre Leather EDP(50ml) (Nam)",
+      "thuongHieu": "TomFord",
+      "soLuong": 6,
+      "gia": 3400000,
+      "thongTin": "Nước hoa unisex Ombré Leather (2018) phù hợp với người trên 25 tuổi.Đây là dòng nước hoa Tom Ford này có độ lưu hương lâu 10 giờ đến 12 giờ và độ tỏa hương thuộc dạng gần – toả hương trong vòng một cánh tay. Ombré Leather (2018) phù hợp để sử dụng trong cả ngày lẫn đêm vào mùa thu, đông. Đây là dòng nước hoa Tom Ford thuộc nhóm Leather (Hương da thuộc).",
+      "trangThai": 0
+    },
+    {
+      "id": 17,
+      "hinhAnh": "mancera-so-blue.jpg",
+      "ten": "Mancera So Blue Unisex(120ml)",
+      "thuongHieu": "Mancera",
+      "soLuong": 13,
+      "gia": 2800000,
+      "thongTin": "So Blue được mở đầu với các mùi hương trái cây tươi mát như Chanh, Cam, Quýt được hòa quyện đặc sắc với hương Tiêu và vị ngọt của Trái cây. Tầng hương giữa mở ra với các nốt chủ đạo là hoa, bao gồm hoa Hồng Bulgary, hoa Tím, tô đậm hơn với mùi hương của Biển và Hoắc hương. Kết thúc cuộc dạo chơi đầy mùi hương là những nốt hương ấm áp ở phần cuối như Hổ phách, Xạ hương, Vani…So Blue được ví như một ly Soda hoa quả ngon ngọt, mát lịm bên cạnh bờ biển xanh mà ai ai cũng muốn thưởng thức.",
+      "trangThai": 0
+    },
+    {
+      "id": 18,
+      "hinhAnh": "mancera-PURPLE-FLOWERS.png",
+      "ten": "Purple Flowers Unisex(120ml)",
+      "thuongHieu": "Mancera",
+      "soLuong": 15,
+      "gia": 3500000,
+      "thongTin": "Gợi nhớ mùi và hương vị từ một vùng đất xa xôi, loại nước hoa này có hương đầu của quả quýt Sicilia, hạt nhục đậu khấu, hạt tiêu đen và cây vả, mang lại cảm giác giống như hoa hồng nhưng giống như đất. Hương cuối bao gồm vani Madagascar, hoắc hương và xạ hương trắng, tạo ra hương thơm này với một chút ngọt ngào và làm cho nó trở nên không thể cưỡng lại được.",
+      "trangThai": 0
+    },
+    {
+      "id": 19,
+      "hinhAnh": "afnan-9pm.png",
+      "ten": "9PM (100ml) (Nam)",
+      "thuongHieu": "afnan",
+      "soLuong": 14,
+      "gia": 1600000,
+      "thongTin": "9PM, thay vì lấy chủ đạo của hương trái cây là quả lê chín, ngọt và mọng nước như Ultra Male thì Afnan đã sử dụng táo xanh. Hiệu ứng táo xanh, quế, vanilla đi kèm với nhau cũng nổi bật chả kém cạnh gì Ultra Male, nhưng có cảm giác mùi hương sẽ tối và không có sự fresh lúc đầu như tượng đài tới từ Jean Paul Gaultier.",
+      "trangThai": 0
+    },
+    {
+      "id": 20,
+      "hinhAnh": "D&G-light-blue-eau-intense-pour-homme.png",
+      "ten": "Light Blue Pour Homme Eau Intense(100ml) (Nam) ",
+      "thuongHieu": "D&G",
+      "soLuong": 12,
+      "gia": 2800000,
+      "thongTin": "Nước hoa nam Light Blue Eau Intense Pour Homme được cho ra mắt vào năm 2017. Đây là dòng nước hoa Dolce&Gabbana thuộc nhóm Woody Aquatic (Hương gỗ biển). Alberto Morillas chính là nhà pha chế ra loại nước hoa này. Light Blue Eau Intense Pour Homme có độ lưu hương lâu trên 6 giờ và độ tỏa hương thuộc dạng rất xa – toả hương trong vòng bán kính trên 2 mét. Đây là chai nước hoa rất phù hợp vào mùa hè và là dòng được các bạn nam khá yêu thích.",
+      "trangThai": 0
+    }
+  ],
+  "thuongHieu": [
+    {
+      "id": 1,
+      "thuongHieu": "YSL"
+    },
+    {
+      "id": 2,
+      "thuongHieu": "Mancera"
+    },
+    {
+      "id": 3,
+      "thuongHieu": "afnan"
+    },
+    {
+      "id": 4,
+      "thuongHieu": "Versace"
+    },
+    {
+      "id": 5,
+      "thuongHieu": "TomFord"
+    },
+    {
+      "id": 6,
+      "thuongHieu": "Dior"
+    },
+    {
+      "id": 7,
+      "thuongHieu": "D&G"
+    }
+  ],
+  "user": [
+    {
+      "id": 1,
+      "username": "111",
+      "password": "111",
+      "phone": "0326505003",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "username": "2222",
+      "password": "2222",
+      "phone": "0326505003",
+      "role": "users"
+    },
+    {
+      "id": 3,
+      "phone": "0326505003",
+      "username": "111a",
+      "role": "admin",
+      "password": "123"
+    },
+    {
+      "id": 4,
+      "phone": "0326505003",
+      "username": "1111",
+      "role": "admin",
+      "password": "11111"
+    },
+    {
+      "role": "users",
+      "username": "333",
+      "password": "333",
+      "phone": "0326505003",
+      "id": 5
+    },
+    {
+      "id": 6,
+      "phone": "0326505003",
+      "username": "444",
+      "role": "admin",
+      "password": "4444"
+    }
+  ]
+}

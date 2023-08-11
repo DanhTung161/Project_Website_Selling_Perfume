@@ -1,0 +1,61 @@
+.logo {
+  background-image: linear-gradient(0, rgb(255, 255, 255), rgb(255, 255, 255));
+}
+
+.btn_find {
+  color: #000000;
+  border-color: #000000;
+}
+
+.btn_find:hover {
+  background-color: #ffffff;
+}
+
+.btn_cart,
+.btn_user,
+.dropdown-toggle,
+.dropdown-toggle:hover {
+  color: #000000;
+}
+.dropdown-item:hover {
+  background-color: #b7f1ed;
+  color: #000000;
+}
+.footer_top {
+  background-image: linear-gradient(0, rgb(255, 255, 255), rgb(255, 255, 255));
+}
+
+.footer_bottom {
+  background-color: #ffffff;
+}
+
+.contact_icons {
+  width: 30px;
+}
+
+.contact_icons:hover,
+.nav_title:hover {
+  color: #000000 !important;
+}
+
+.card_accept {
+  margin-left: 5px;
+}
+
+.card_accept_1 {
+  height: 50px;
+}
+
+.ul_footer {
+  list-style: none;
+  line-height: 35px;
+}
+
+.about_us_link {
+  text-decoration: none;
+  color: black;
+}
+
+.about_us_link:hover {
+  color: #ffffff;
+}

@@ -1,0 +1,122 @@
+<link rel="stylesheet" href="/ASM/css/quan_ly_danh_muc.css" />
+
+<section class="row">
+  <div class="col-md-10 offset-md-1">
+    <div class="row">
+      <div class="col-md-3 my-1">
+        <div class="row">
+          <img class="col-6 col-md-12" src="/ASM/img/addm1.jpg" alt="" />
+          <img class="col-6 col-md-12" src="/ASM/img/addm2.jpg" alt="" />
+          <img class="col-6 col-md-12" src="/ASM/img/addm3.jpg" alt="" />
+        </div>
+      </div>
+      <div class="col-md-9 my-1">
+        <div class="row">
+          <div class="card">
+            <div class="card-header navigation_header">
+              <ul class="nav nav-tabs card-header-tabs">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active navigation_link"
+                    aria-current="true"
+                    href="#/quan_ly_san_pham"
+                    >QUẢN LÝ SẢN PHẨM</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link active navigation_link"
+                    href="#/quan_ly_danh_muc"
+                    >QUẢN LÝ DANH MỤC</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div class="card-body">
+              <form ng-submit="onSubmit($event)">
+                <div class="row">
+                  <div class="text_header mb-4">THÊM DANH MỤC</div>
+                </div>
+
+                <div class="row justify-content-center">
+                  <div class="col-9">
+                    <div class="form-group mb-3">
+                      <label class="form-label">Tên danh mục</label>
+                      <input
+                        type="text"
+                        required
+                        ng-model="thuongHieu.thuongHieu"
+                        class="form-control"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row justify-content-center">
+                  <button type="submit" class="btn btn-default btn_mua_sp mx-2">
+                    Thêm mới
+                  </button>
+                  <button
+                    ng-click="clear()"
+                    class="btn btn-default btn_mua_sp btn_delete mx-2"
+                  >
+                    Hủy bỏ
+                  </button>
+                </div>
+              </form>
+            </div>
+
+            <hr />
+
+            <div class="row">
+              <div class="text_header my-3 ms-3">DANH MỤC HIỆN TẠI</div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <table class="table table-striped">
+                  <thead>
+                    <tr>
+                      <th>ID</th>
+                      <th>Tên danh mục</th>
+                      <th>Hành động</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr ng-repeat="th in arrThuongHieu">
+                      <td>{{th.id}}</td>
+                      <td>{{th.thuongHieu}}</td>
+                      <td>
+                        <button
+                          ng-click="select($index)"
+                          class="btn btn-default btn_edit"
+                        >
+                          Chỉnh Sửa
+                        </button>
+                        <button
+                          ng-click="delete($index)"
+                          class="btn btn-default btn_delete"
+                        >
+                          Xóa
+                        </button>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="row mx-1">
+  <div class="col">
+    <div class="row justify-content-center">
+      <h1 class="title_welcome title_welcome_top">- XXIV STORE THANK YOU -</h1>
+      <hr class="hr_black" />
+    </div>
+  </div>
+</div>

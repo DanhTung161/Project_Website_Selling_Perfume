@@ -1,0 +1,68 @@
+.title_welcome {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+}
+
+.title_welcome_top {
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.boder_sp {
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.navigation_header {
+  background-color: #73b7ee;
+}
+
+.navigation_link {
+  color: #000000 !important;
+}
+
+.text_header {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 25px;
+  font-weight: 700;
+  border-bottom: 1px dotted rgb(0, 0, 0);
+}
+
+.btn_mua_sp {
+  background-color: #73b7ee;
+  color: white;
+  width: 150px;
+}
+
+.btn_mua_sp:hover {
+  background-color: #e95e5e;
+  color: white;
+}
+.btn_active {
+  background-color: #f58181;
+  color: white;
+}
+
+.btn_active:hover {
+  background-color: #73b7ee;
+  color: white;
+}
+.btn_edit {
+  background-color: rgb(61, 188, 83);
+  color: white;
+}
+.btn_edit:hover {
+  background-color: rgb(45, 154, 63);
+  color: white;
+}
+.btn_delete {
+  background-color: rgb(139, 138, 138);
+  color: white;
+}
+.btn_delete:hover {
+  background-color: grey;
+}
+.hr_black {
+  width: 300px;
+  min-height: 2px;
+}

@@ -1,0 +1,152 @@
+<link rel="stylesheet" href="/ASM/css/gio_hang.css" />
+
+<div class="row">
+  <div class="col-12">
+    <div class="row justify-content-center">
+      <h1 class="title_welcome title_welcome_top">- WELCOME TO XXIV STORE -</h1>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col">
+    <div class="row justify-content-center">
+      <p class="title_welcome">
+        XXIV PERFUME BAR - Mang mùi hương đến với mọi người
+      </p>
+      <hr class="hr_black mb-5" />
+    </div>
+  </div>
+</div>
+
+<section class="row ms-5">
+  <div class="col-md-3">
+    <div class="row">
+      <img src="/ASM/img/giohang1.jpg" alt="" />
+    </div>
+    <div class="row">
+      <img src="/ASM/img/giohang2.jpg" alt="" />
+    </div>
+    <div class="row">
+      <img src="/ASM/img/giohang3.jpg" alt="" />
+    </div>
+  </div>
+  <div class="col-md-8">
+    <div class="row">
+      <div class="card">
+        <div class="card-header card_header">
+          <ul class="nav nav-tabs card-header-tabs">
+            <li class="nav-item">
+              <a
+                class="nav-link active navigation_link"
+                aria-current="true"
+                href="#/san_pham_da_mua"
+                >SẢN PHẨM ĐÃ MUA</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active navigation_link" href="#/gio_hang"
+                >GIỎ HÀNG</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active navigation_link" href="#/mua_hang"
+                >MUA HÀNG</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="card-body">
+          <div class="row mt-3 mb-2">
+            <h4 class="text_header">GIỎ HÀNG CỦA BẠN</h4>
+            <hr />
+          </div>
+
+          <div class="card px-3">
+            <div
+              class="row px-4 py-3"
+              ng-repeat="nuochoa in arrGioHang | limitTo: 3: begin"
+            >
+              <div class="card p-4">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="row sp_chitiet">
+                      <img src="/ASM/img/{{nuochoa.hinhAnh}}" alt="" />
+                    </div>
+                  </div>
+                  <div class="col-md-7 ms-4">
+                    <div class="row">
+                      <h3 class="card-title">{{nuochoa.ten}}</h3>
+                      <hr />
+                      <ul class="card-text li_chitietsp ms-5">
+                        <li>Thương hiệu: {{nuochoa.thuongHieu}}</li>
+                        <li>Giá: {{nuochoa.gia}}</li>
+                      </ul>
+                      <div class="row d-flex align-items-center mt-2 ms-1">
+                        Số lượng:
+                        <input
+                          aria-label="quantity"
+                          class="input-qty col-md-2 ms-2"
+                          max=""
+                          min="0"
+                          name=""
+                          type="number"
+                          value=""
+                          placeholder="1"
+                        />
+                        <a
+                          href="#/mua_hang"
+                          ng-click="muaHang(nuochoa.id)"
+                          class="col-4 ms-4 my-2 btn btn-default btn_mua_sp"
+                          >Mua ngay</a
+                        >
+                        <a
+                          ng-click="deleteGioHang(nuochoa.id)"
+                          class="col-4 ms-4 my-2 btn btn-default btn_mua_sp btn_delete"
+                          >Xóa</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row mb-4">
+              <div class="col pagination d-flex justify-content-center">
+                <div class="card">
+                  <button class="btn btn_pagination" ng-click="first()">
+                    <i class="fa-solid fa-backward-fast fa-lg"></i>
+                  </button>
+                </div>
+                <div class="card">
+                  <button class="btn btn_pagination" ng-click="prev()">
+                    <i class="fa-solid fa-backward fa-lg"></i>
+                  </button>
+                </div>
+                <div class="card">
+                  <button class="btn btn_pagination" ng-click="next()">
+                    <i class="fa-solid fa-forward fa-lg"></i>
+                  </button>
+                </div>
+                <div class="card">
+                  <button class="btn btn_pagination" ng-click="last()">
+                    <i class="fa-solid fa-forward-fast fa-lg"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="row mx-1">
+  <div class="col">
+    <div class="row justify-content-center">
+      <h1 class="title_welcome title_welcome_top">- XXIV STORE THANK YOU -</h1>
+      <hr class="hr_black" />
+    </div>
+  </div>
+</div>

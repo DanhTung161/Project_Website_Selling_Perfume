@@ -1,0 +1,60 @@
+.title_welcome {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+}
+
+.title_welcome_top {
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+.hr_black {
+  width: 250px;
+  min-height: 2px;
+}
+
+.boder_sp {
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.navigation_header {
+  background-color: #73b7ee;
+}
+
+.navigation_link {
+  color: #000000 !important;
+}
+.img_van_chuyen {
+  width: 130px;
+  margin-left: 20px;
+}
+.img_thanh_toan {
+  width: 70px;
+  margin-left: 20px;
+}
+
+.btn_mua_sp {
+  background-color: #73b7ee;
+  color: white;
+  width: 150px;
+}
+
+.btn_mua_sp:hover {
+  background-color: #18a3da;
+  color: white;
+}
+.btn_edit {
+  background-color: rgb(61, 188, 83);
+  color: white;
+}
+.btn_edit:hover {
+  background-color: rgb(45, 154, 63);
+  color: white;
+}
+.btn_delete {
+  background-color: rgb(139, 138, 138);
+  color: white;
+}
+.btn_delete:hover {
+  background-color: rgb(108, 108, 108);
+}

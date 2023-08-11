@@ -1,0 +1,42 @@
+.title_welcome {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+}
+
+.title_welcome_top {
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+.form_dangnhap {
+  /* rgba(248, 234, 231, 0.5) 250 228*/
+  background-image: linear-gradient(
+    90deg,
+    rgba(250, 228, 231, 0.5),
+    rgba(41, 191, 250, 0.459)
+  );
+  background-color: white;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.text_forfreeacc {
+  margin-bottom: 35px;
+}
+.sao {
+  color: red;
+}
+.forget_signup {
+  color: rgb(87, 86, 86);
+}
+.btn_dangnhap {
+  background-color: #73b7ee;
+  color: white;
+  width: 200px;
+  margin-top: 25px;
+}
+.btn_dangnhap:hover {
+  background-color: #18a3da;
+  color: white;
+}
+.hr_black {
+  width: 300px;
+}

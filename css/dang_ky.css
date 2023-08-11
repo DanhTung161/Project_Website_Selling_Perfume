@@ -1,0 +1,53 @@
+.title_welcome, .title_tamsu {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.title_welcome_top {  
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+.title_tamsu_top {
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+.title_tamsu_bottom {
+    line-height: 30px;
+}
+.name_shop {
+    color: #f58181;
+}
+.hr_black {
+    width: 300px;
+    margin-top: 10px;
+}
+
+
+.form_dangky {
+    position: absolute;
+    background-color: rgba(252, 240, 242, 0.4);
+    border-radius: 20px;
+}
+
+.img_nen_dangky {
+    height: 750px;
+}
+
+.btn_continue_dangky {
+    background-color: rgb(245, 153, 130);
+    color: white;
+    width: 200px;
+}
+
+.btn_continue_dangky:hover {
+    background-color: rgb(240, 118, 87);
+    color: white;
+}
+
+.sao {
+    color: red;
+}
+
+.forget_signup {
+    color: rgb(87, 86, 86);
+}

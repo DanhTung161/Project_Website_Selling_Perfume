@@ -1,0 +1,74 @@
+.title_welcome {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+}
+
+.title_welcome_top {
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+.hr_black {
+  width: 250px;
+  min-height: 2px;
+}
+
+.boder_sp {
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+.card_header {
+  background-color: #73b7ee;
+}
+.navigation_link {
+  color: #000000 !important;
+}
+.status_header {
+  border: 1px solid lightgray;
+}
+.status_img {
+  width: 100px;
+}
+.status_text {
+  font-family: "Times New Roman", Times, serif;
+}
+/* .sp_chitiet {
+    border: 1px solid gray;
+} */
+
+.li_chitietsp {
+  font-size: 15px;
+}
+.sao_danhgia {
+  color: #e95e5e;
+}
+.btn_mua_sp {
+  background-color: #73b7ee;
+  color: white;
+  width: 100px;
+}
+
+.btn_mua_sp:hover {
+  background-color: #18a3da;
+  color: white;
+}
+
+.btn_delete {
+  background-color: rgb(139, 138, 138);
+  color: white;
+}
+.btn_delete:hover {
+  background-color: rgb(108, 108, 108);
+}
+
+.btn_pagination {
+  color: #888888;
+}
+.btn_pagination:hover {
+  color: #000000;
+}
+
+.text_header {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 27px;
+  font-weight: 600;
+}

@@ -1,0 +1,49 @@
+.title_welcome {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+}
+
+.title_welcome_top {
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.navigation_header {
+  background-color: #73b7ee;
+}
+.navigation_link {
+  color: #000000 !important;
+}
+.trangthai_header {
+  font-family: "Times New Roman", Times, serif;
+}
+.trangthai_boder {
+  border: 1px solid lightgrey;
+}
+.border_img {
+  border: 1px solid gray;
+}
+
+.btn_mua_sp {
+  background-color: #73b7ee;
+  color: white;
+  width: 100px;
+  margin-top: 10px;
+}
+
+.btn_mua_sp:hover {
+  background-color: #18a3da;
+  color: white;
+}
+
+.btn_vietdanhgia {
+  width: 150px;
+  margin-left: 20px;
+}
+.sao_danhgia {
+  color: #ffe600;
+}
+.hr_black {
+  width: 250px;
+  min-height: 2px;
+}

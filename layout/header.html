@@ -1,0 +1,103 @@
+<link rel="stylesheet" href="/ASM/css/header_footer.css" />
+
+<header class="row justify-content-center py-2 logo">
+  <img class="col-md-3 col-xs-5" src="/Asm/img/R.png" alt="" />
+</header>
+
+<div class="row" ng-controller="headerController">
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+      <div class="col-md-1 offset-md-1">
+        <a class="navbar-brand nav_title" href="#/trang_chu">Trang chủ</a>
+      </div>
+      <button
+        class="navbar-toggler mb-2"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul
+          class="navbar-nav me-auto mb-2 mb-lg-0 col-md-7 justify-content-around"
+        >
+          <li class="nav-item">
+            <a
+              class="nav-link active nav_title"
+              aria-current="page"
+              href="#/gioi_thieu"
+              >Giới thiệu</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active nav_title" href="#/san_pham">Sản phẩm</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active nav_title" href="#/lien_he">Liên hệ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active nav_title" href="#">Góp ý</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-5 d-flex align-items-center">
+        <form class="d-flex col-md-7 col-xs-12">
+          <input
+            class="form-control me-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-danger btn_find" type="submit">
+            <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+          </button>
+        </form>
+        <div class="col-md-5 col-xs-12 d-flex justify-content-start">
+          <a href="#/gio_hang"
+            ><i class="fa-solid fa-cart-plus fa-2xl btn_cart mt-4 ms-3"></i
+          ></a>
+
+          <h6 class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <i class="fa-regular fa-circle-user fa-2xl mt-3 btn_user"></i>
+            </a>
+            <ul
+              class="dropdown-menu"
+              style="min-width: 100px"
+              aria-labelledby="navbarDropdown"
+            >
+              <li><a class="dropdown-item" ng-click="dangKy()">Đăng ký</a></li>
+              <li><hr class="dropdown-divider" /></li>
+              <li><a class="dropdown-item" ng-click="login()">Đăng nhập</a></li>
+              <li>
+                <a class="dropdown-item" ng-click="doiMatKhau()"
+                  >Đổi mật khẩu</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" ng-click="logout()">Đăng xuất</a>
+              </li>
+              <li><hr class="dropdown-divider" /></li>
+              <li><a class="dropdown-item" ng-click="quanLy()">Quản lý</a></li>
+            </ul>
+          </h6>
+
+          <!-- <p class=" col-12 text-danger mt-3">Hi!{{NguoiDung}}</p> -->
+        </div>
+      </div>
+    </div>
+  </nav>
+</div>
+
+<script></script>

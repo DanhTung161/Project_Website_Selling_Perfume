@@ -1,0 +1,201 @@
+<link rel="stylesheet" href="/ASM/css/chi_tiet_san_pham.css">
+
+<div class="row">
+    <div class="col-8 offset-2">
+        <div class="row">
+            <img src="/ASM/img/hand1.webp" alt="">
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-12">
+        <div class="row justify-content-center">
+            <h1 class="title_welcome title_welcome_top"> - WELCOME TO HANDMADE SHOP - </h1>
+
+        </div>
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="col">
+        <div class="row justify-content-center">
+            <p class="title_welcome"> Made with love, everything we do is ‘for you, for beauty’ </p>
+            <hr class="hr_black mb-4">
+        </div>
+    </div>
+</div>
+
+<section class="row">
+    <div class="col-md-10 offset-1">
+        <div class="row">
+            <aside class="col-md-3">
+                <div class="row">
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                <button class="accordion-button btn_aside" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                    aria-controls="panelsStayOpen-collapseOne">
+                                    <i class="fa-solid fa-list-ul fa-lg me-2"></i>
+                                    THƯƠNG HIỆU
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                                aria-labelledby="panelsStayOpen-headingOne">
+                                <div class="accordion-body">
+                                    <h5 class="px-1"><a class="li_aside ms-2" href="#/san_pham">Tất cả</a>
+                                    </h5>
+                                    <hr>
+                                    <ul class="ul_aside" ng-repeat="th in arrThuongHieu">
+                                        <li><a class="li_aside" href="#/san_pham" ng-click="shownuochoa($index)">{{th.thuongHieu}}</a></li>
+                                        <hr>    
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+                <div class="row">
+                    <img class="col-4 col-md-12" src="/ASM/img/aside3.jpg" alt="">
+              
+                    <img class="col-4 col-md-12" src="/ASM/img/aside4.jpg" alt="">
+               
+                    <img class="col-4 col-md-12" src="/ASM/img/aside5.jpg" alt="">
+                </div>
+            </aside>
+
+            <article class="col-md-9 boder_sp">
+
+                <div class="row p-5">
+                    <div class="col-md-5">
+                        <div class="row sp_chitiet">
+                            <img src="/ASM/img/{{nuochoa.hinhAnh}}" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-7 ps-5">
+                        <div class="row">
+                            <h3 class="card-title">{{nuochoa.ten}}</h3>
+                            <hr>
+                            <h6 class="card-text">{{nuochoa.thongTin}}.</h6>
+                            <ul class="card-text li_chitietsp ms-5">
+                                <li>Thương hiệu: {{nuochoa.thuongHieu}}</li>
+                                <li>Giá: {{nuochoa.gia}} VND</li>
+                            </ul>
+                            <p>
+                                <i class="fa-solid fa-star fa-xl sao_danhgia"></i>
+                                <i class="fa-solid fa-star fa-xl sao_danhgia"></i>
+                                <i class="fa-solid fa-star fa-xl sao_danhgia"></i>
+                                <i class="fa-solid fa-star-half-stroke fa-xl sao_danhgia"></i>
+                                <i class="fa-regular fa-star fa-xl sao_danhgia"></i>
+                            </p>
+                            <div class="row d-flex align-items-center mt-2 ms-1">
+                                <!-- <input class="minus is-form col-md-2" type="button" value="-"> -->
+                                Số lượng:
+                                <input aria-label="quantity" class="input-qty col-md-2 ms-2" max="" min="0" name=""
+                                    type="number" value="">
+                                <!-- <input class="plus is-form col-md-2" type="button" value="+"> -->
+                            </div>
+                            <div class="row ms-1">
+                                <a href="#" class="col-4 btn btn-default btn_mua_sp">Mua</a>
+                                <a href="#" class="col-4 btn btn-default btn_mua_sp btn_themgiohang">Thêm vào giỏ
+                                    hàng</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="product-detail-header">SẢN PHẨM LIÊN QUAN</div>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-4 col-md-2">
+                        <div class="card sp_lq">
+                            <img src="/ASM/img/chanel1.webp" class="card-img-top" alt="...">
+                            <div class="card-body">                            
+                                <p class="card-text">Chanel Watter</p>
+                                <a href="#" class="btn btn-outline-danger">Xem</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 col-md-2">
+                        <div class="card sp_lq">
+                            <img src="/ASM/img/sp_news_8.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">                            
+                                <p class="card-text">YSL Velvett</p>
+                                <a href="#" class="btn btn-outline-danger">Xem</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 col-md-2">
+                        <div class="card sp_lq">
+                            <img src="/ASM/img/loreal2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">                            
+                                <p class="card-text">Loreal Tint Ss2</p>
+                                <a href="#" class="btn btn-outline-danger">Xem</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 col-md-2">
+                        <div class="card sp_lq">
+                            <img src="/ASM/img/merzy1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">                            
+                                <p class="card-text">Merzy Glow</p>
+                                <a href="#" class="btn btn-outline-danger">Xem</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 col-md-2">
+                        <div class="card sp_lq">
+                            <img src="/ASM/img/chanel1.webp" class="card-img-top" alt="...">
+                            <div class="card-body">                            
+                                <p class="card-text">Chanel Watter</p>
+                                <a href="#" class="btn btn-outline-danger">Xem</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 col-md-2">
+                        <div class="card sp_lq">
+                            <img src="/ASM/img/loreal1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">                            
+                                <p class="card-text">Loreal Airfit</p>
+                                <a href="#" class="btn btn-outline-danger">Xem</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="pt-4 product-detail-header">MÀU HOT</div>
+                </div>
+
+                <div class="row pb-3">
+                    <div class="col-6">
+                        <div class="row">
+                            <img src="/ASM/img/color1.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="row">
+                            <img src="/ASM/img/color2.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </article>
+        </div>
+    </div>
+</section>
+
+
+<div class="row mx-1">
+    <div class="col">
+        <div class="row justify-content-center">
+            <h1 class="title_welcome title_welcome_top"> - HANDMADE SHOP THANK YOU - </h1>
+            <hr class="hr_black">
+        </div>
+    </div>
+</div>

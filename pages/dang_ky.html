@@ -1,0 +1,189 @@
+<link rel="stylesheet" href="/ASM/css/dang_ky.css" />
+
+<section class="row mt-3">
+  <div class="row">
+    <div class="col-md-5 offset-1">
+      <div class="row">
+        <img src="/Asm/img/papume.webp" alt="" />
+      </div>
+    </div>
+    <div class="col-md-5 p-2">
+      <div class="card py-5 mt-5">
+        <div class="row">
+          <h1 class="title_tamsu title_tamsu_top">
+            -Cảm ơn các bạn rất nhiều vì đã tin tưởng và lựa chọn xxiv.-
+          </h1>
+        </div>
+        <div class="row px-4">
+          <h5 class="title_tamsu title_tamsu_bottom">
+            Đã là phái đẹp thì việc sở hữu một thỏi son luôn là điều quen thuộc
+            và cần thiết. Vì thế việc lựa chọn cho mình thỏi son phù hợp vẫn
+            khiến rất nhiều chị em chúng ta phải đau đầu
+          </h5>
+
+          <h5 class="title_tamsu title_tamsu_bottom">
+            Đến với <i class="name_shop">XXIV STORE</i>, chúng tôi tin rằng bạn
+            sẽ tìm được những thỏi son phù hợp thể hiện sở thích, cá tính của
+            bản thân
+          </h5>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-12">
+      <div class="row">
+        <h1 class="title_welcome title_welcome_top">
+          - WELCOME TO XXIV STORE -
+        </h1>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col">
+      <div class="row justify-content-center">
+        <p class="title_welcome">
+          XXIV PERFUME BAR - Mang mùi hương đến với mọi người
+        </p>
+        <hr class="hr_black" />
+      </div>
+    </div>
+  </div>
+
+  <header class="row py-4 mx-1">
+    <img
+      class="col position-relative img_nen_dangky"
+      src="/ASM/img/xxiv_gioithieu.webp"
+      alt=""
+    />
+    <form
+      name="frm"
+      ng-submit="onSubmit($event)"
+      class="col-md-6 offset-md-1 col-xs-1 mt-3 px-5 py-4 form_dangky"
+    >
+      <div class="row">
+        <h2 class="d-flex justify-content-center mb-4">Sign Up</h2>
+
+        <div class="row mb-2">
+          <label class="form-label col-2">Quyền<i class="sao">*</i></label>
+          <div
+            ng-model="user.role"
+            class="col-md-9 col-xs-12 d-flex justify-content-center"
+          >
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="rdoRole"
+                id="admin"
+                checked
+                ng-click="user.role = 'admin'"
+              />
+              <label class="form-check-label" for="admin"> Admin </label>
+            </div>
+            <div class="form-check mx-5">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="rdoRole"
+                id="users"
+                ng-click="user.role = 'users'"
+              />
+              <label class="form-check-label" for="users"> User </label>
+            </div>
+          </div>
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Số điện thoại</label>
+          <input
+            type="text"
+            name="txtPhone"
+            pattern="0[0-9]{9}"
+            ng-model="user.phone"
+            class="form-control"
+          />
+          <span
+            class="text-danger"
+            ng-show="frm.txtPhone.$invalid && frm.txtPhone.$dirty"
+            >Sdt gồm 10 chữ số và bắt đầu bằng 0</span
+          >
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">Tài khoản <i class="sao">*</i></label>
+          <input
+            type="text"
+            required
+            minlength="3"
+            name="txtUsername"
+            ng-model="user.username"
+            class="form-control"
+          />
+          <span
+            class="text-danger"
+            ng-show="frm.txtUsername.$invalid && frm.txtUsername.$dirty"
+            >Tài khoản ít nhất 3 kí tự</span
+          >
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Mật khẩu <i class="sao">*</i></label>
+          <input
+            type="text"
+            required
+            name="txtPassword"
+            minlength="3"
+            maxlength="5"
+            ng-model="user.password"
+            class="form-control"
+          />
+          <span
+            class="text-danger"
+            ng-show="frm.txtPassword.$invalid && frm.txtPassword.$dirty"
+            >Mật khẩu từ 3-5 kí tự</span
+          >
+        </div>
+        <div class="mb-3">
+          <label class="form-label"
+            >Nhập lại mật khẩu <i class="sao">*</i></label
+          >
+          <input
+            type="text"
+            required
+            name="txtPassword2"
+            class="form-control"
+            ng-model="password2"
+          />
+          <span
+            class="text-danger"
+            ng-if="frm.txtPassword.$viewValue !== frm.txtPassword2.$viewValue && frm.txtPassword2.$dirty"
+            >Mật khẩu không khớp</span
+          >
+        </div>
+
+        <div class="sao my-2"><i> Mục có dấu (*) là bắt buộc</i></div>
+        <div class="d-flex justify-content-center pt-3">
+          <button type="submit" class="btn btn-default btn_continue_dangky">
+            ĐĂNG KÝ
+          </button>
+        </div>
+        <div class="d-flex justify-content-center mt-3">
+          <p class="me-2 text-secondary"><i>Bạn đã có tài khoản?</i></p>
+          <a class="forget_signup" href="#/dang_nhap">Đăng nhập ngay</a>
+        </div>
+      </div>
+    </form>
+  </header>
+
+  <div class="row mx-1">
+    <div class="col">
+      <div class="row justify-content-center">
+        <h1 class="title_welcome title_welcome_top">
+          - XXIV STORE THANK YOU -
+        </h1>
+        <hr class="hr_black" />
+      </div>
+    </div>
+  </div>
+</section>

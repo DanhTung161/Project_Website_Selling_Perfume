@@ -1,0 +1,76 @@
+.title_welcome {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.title_welcome_top {
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+.hr_black {
+    width: 250px;
+    min-height: 2px;
+}
+
+.btn_aside {
+    background-color: #fcd0d0;
+    color: black;
+}
+
+.btn_aside:hover {
+    background-color: #fcd0d0;
+    color: black;
+}
+
+.ul_aside {
+    list-style: none;
+    margin-left: -20px;
+}
+
+.li_aside {
+    text-decoration: none;
+    color: black;
+}
+
+.boder_sp {
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.sp_chitiet {
+    border: 1px solid gray;
+}
+
+.product-detail-header {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 28px;
+    font-weight: 700;
+    border-bottom: 1px dotted palevioletred;
+    margin: 10px 0 20px 20px;
+}
+
+.li_chitietsp {
+    font-size: 15px;
+}
+.sao_danhgia {
+    color: #e95e5e;
+}
+.btn_mua_sp {
+    background-color: #f58181;
+    color: white;
+    width: 100px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.btn_mua_sp:hover {
+    background-color: #e95e5e;
+    color: white;
+    margin-top: 17px;
+}
+
+.btn_themgiohang {
+    width: 180px;
+}
+.sp_lq {
+    text-align: center;
+}

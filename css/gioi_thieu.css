@@ -1,0 +1,48 @@
+.title_welcome {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+}
+
+.title_welcome_top {
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+
+.hr_pink {
+  color: #73b7ee;
+  min-height: 3px;
+  border-radius: 20px;
+}
+
+.hr_pink1 {
+  width: 155px;
+}
+
+.hr_pink2 {
+  width: 110px;
+}
+
+.hr_pink3 {
+  width: 150px;
+}
+
+.hr_pink4 {
+  width: 190px;
+}
+
+.hr_black_top {
+  color: black;
+  width: 200px;
+  margin-bottom: 40px;
+}
+.hr_quote {
+  width: 300px;
+}
+.content_quote {
+  font-size: 19px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 700;
+}
+.img_blogs {
+  margin-left: 1px;
+}

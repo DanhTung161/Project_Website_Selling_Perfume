@@ -1,0 +1,63 @@
+.title_welcome {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+}
+
+.title_welcome_top {
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+
+.hr_pink {
+  color: #e95e5e;
+  min-height: 3px;
+  border-radius: 20px;
+}
+
+.hr_pink1 {
+  width: 155px;
+}
+
+.hr_pink2 {
+  width: 110px;
+}
+
+.hr_pink3 {
+  width: 150px;
+}
+
+.hr_pink4 {
+  width: 190px;
+}
+
+.hr_black_top {
+  color: black;
+  width: 200px;
+  margin-bottom: 40px;
+}
+
+.text_top1,
+.text_top234,
+.text_top234_name {
+  text-align: center;
+}
+
+.boder_top234 {
+  border: 5px solid #4e4444;
+  border-radius: 10px;
+}
+
+.img_top234 {
+  height: 350px;
+  border-bottom: 1px solid #f7b0b0;
+}
+.btn_mua_sp_news {
+  background-color: #73b7ee;
+  color: white;
+  margin-top: 17px;
+}
+.btn_mua_sp_news:hover {
+  background-color: #18a3da;
+  color: white;
+  margin-top: 10px;
+}

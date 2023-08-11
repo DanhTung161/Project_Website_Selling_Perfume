@@ -1,0 +1,231 @@
+<link rel="stylesheet" href="/ASM/css/quan_ly_san_pham.css" />
+
+<section class="row">
+  <div class="col-md-10 offset-md-1">
+    <div class="row">
+      <div class="col-md-3 my-1">
+        <div class="row">
+          <img class="col-6 col-md-12" src="/ASM/img/adsp1.jpg" alt="" />
+          <img class="col-6 col-md-12" src="/ASM/img/adsp2.jpg" alt="" />
+          <img class="col-6 col-md-12" src="/ASM/img/adsp3.jpg" alt="" />
+        </div>
+      </div>
+      <div class="col-md-9 my-1">
+        <div class="row">
+          <div class="card">
+            <div class="card-header navigation_header">
+              <ul class="nav nav-tabs card-header-tabs">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active navigation_link"
+                    aria-current="true"
+                    href="#/quan_ly_san_pham"
+                    >QUẢN LÝ SẢN PHẨM</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link active navigation_link"
+                    href="#/quan_ly_danh_muc"
+                    >QUẢN LÝ DANH MỤC</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div class="card-body">
+              <form ng-submit="onSubmit($event)">
+                <div class="row">
+                  <div class="text_header mb-4">THÊM SẢN PHẨM</div>
+                </div>
+
+                <div class="row">
+                  <div class="col-md-5">
+                    <div class="input-group mb-2">
+                      <input
+                        type="file"
+                        class="form-control"
+                        id="inputGroupFile02"
+                        ng-model="nameFile"
+                      />
+                    </div>
+                    <div class="row mb-2">
+                      <!-- no-image-news.png -->
+                      <img src="/ASM/img/{{nuochoa.hinhAnh}}" alt="Hình ảnh" />
+                    </div>
+                  </div>
+                  <div class="col-md-7">
+                    <div class="form-group mb-3">
+                      <label class="form-label">Hình ảnh</label>
+                      <input
+                        type="text"
+                        required
+                        ng-model="nuochoa.hinhAnh"
+                        class="form-control"
+                        ng-bind="nameFile || 'Dữ liệu không có'"
+                        placeholder="{{nameFile}}"
+                      />
+                    </div>
+                    <div class="form-group mb-3">
+                      <label class="form-label">Tên sản phẩm</label>
+                      <input
+                        type="text"
+                        required
+                        ng-model="nuochoa.ten"
+                        class="form-control"
+                      />
+                    </div>
+                    <div class="form-group mb-3">
+                      <!-- ng-options="th.thuongHieu for th in arrThuongHieu" -->
+                      <label class="form-label">Thương hiệu</label>
+                      <select
+                        class="form-select"
+                        required
+                        ng-model="nuochoa.thuongHieu"
+                      >
+                        <option
+                          ng-repeat="th in arrThuongHieu"
+                          value="{{th.thuongHieu}}"
+                        >
+                          {{th.thuongHieu}}
+                        </option>
+                      </select>
+                    </div>
+                    <div class="form-group mb-3">
+                      <label class="form-label">Số lượng</label>
+                      <input
+                        type="number"
+                        ng-model="nuochoa.soLuong"
+                        min="1"
+                        class="form-control"
+                        required
+                      />
+                    </div>
+                    <div class="form-group mb-3">
+                      <label class="form-label">Giá bán</label>
+                      <div class="input-group mb-3">
+                        <input
+                          ng-model="nuochoa.gia"
+                          type="text"
+                          min="0"
+                          class="form-control"
+                          aria-label="Amount (to the nearest dollar)"
+                          required
+                        />
+                        <span class="input-group-text">.VND</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row my-2">
+                    <div class="col">
+                      <label class="form-label">Thông tin chi tiết</label>
+                      <textarea
+                        ng-model="nuochoa.thongTin"
+                        cols="30"
+                        rows="5"
+                        class="form-control"
+                      ></textarea>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row justify-content-center mt-3">
+                  <button type="submit" class="btn btn-default btn_mua_sp mx-2">
+                    Thêm mới
+                  </button>
+                  <button
+                    ng-click="clear()"
+                    class="btn btn-default btn_mua_sp btn_delete mx-2"
+                  >
+                    Hủy bỏ
+                  </button>
+                </div>
+              </form>
+            </div>
+
+            <div class="row">
+              <div class="text_header my-3 ms-2">SẢN PHẨM HIỆN TẠI</div>
+            </div>
+
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th class="col-1">Hình</th>
+                  <th>Tên SP</th>
+                  <th>Thương hiệu</th>
+                  <th>Số lượng</th>
+                  <th>Giá</th>
+                  <th>Hành động</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr ng-repeat="nuochoa in arrnuochoa | limitTo: 5: begin">
+                  <td>
+                    <img
+                      class="col-12"
+                      src="/ASM/img/{{nuochoa.hinhAnh}}"
+                      alt=""
+                    />
+                  </td>
+                  <td>{{nuochoa.ten}}</td>
+                  <td>{{nuochoa.thuongHieu}}</td>
+                  <td>{{nuochoa.soLuong}}</td>
+                  <td>{{nuochoa.gia}}</td>
+                  <td>
+                    <button
+                      ng-click="select($index)"
+                      class="btn btn-default btn_edit"
+                    >
+                      Sửa
+                    </button>
+                    <button
+                      ng-click="delete($index)"
+                      class="btn btn-default btn_delete"
+                    >
+                      Xóa
+                    </button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+            <div class="row mb-3">
+              <div class="col pagination d-flex justify-content-center">
+                <div class="card">
+                  <button class="btn btn_pagination" ng-click="first()">
+                    <i class="fa-solid fa-backward-fast fa-lg"></i>
+                  </button>
+                </div>
+                <div class="card">
+                  <button class="btn btn_pagination" ng-click="prev()">
+                    <i class="fa-solid fa-backward fa-lg"></i>
+                  </button>
+                </div>
+                <div class="card">
+                  <button class="btn btn_pagination" ng-click="next()">
+                    <i class="fa-solid fa-forward fa-lg"></i>
+                  </button>
+                </div>
+                <div class="card">
+                  <button class="btn btn_pagination" ng-click="last()">
+                    <i class="fa-solid fa-forward-fast fa-lg"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="row mx-1">
+  <div class="col">
+    <div class="row justify-content-center">
+      <h1 class="title_welcome title_welcome_top">- XXIV STORE THANK YOU -</h1>
+      <hr class="hr_black" />
+    </div>
+  </div>
+</div>
